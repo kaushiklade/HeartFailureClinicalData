@@ -5,7 +5,7 @@
 Kaggle dataset containing information of different clinical tests of 299 patients which can help in predicting chances of Heart Failure. Dataset is heavily imbalanced meaning, cases where Heart Failure occurs are less compared to that of healthy patients.
 Dataset can be downloaded from url : *https://www.kaggle.com/andrewmvd/heart-failure-clinical-data*
 
-<hr>
+
 
  > ## Exploratory Data Analysis : 
 
@@ -15,7 +15,7 @@ As our main task is to predict the chances of Heart Failure, this proble is a Su
 
 Out of the remaining 11 features, continuous and discrete features are understood by graphical representation. With the histograms of continuous variable, it was helpful to bin the same for better prediction in Modleing phase.
 
-<hr>
+
 
  > ## Modeling
 
@@ -24,7 +24,7 @@ To check the underlying nature of complete data, plot of 2 dimensional represent
 
 Different Linear as well Tree based classifiers are used to check the performance of model on given data. Hyper-parameter tuning of data can be done with the help of Cross Validation dataset. From final result table we can understood Logistic Regression without class balancing was performing better on given data.
 
-<hr>
+
 
 > ## Final Run
 
